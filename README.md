@@ -1,0 +1,73 @@
+🎙️ Eira AI Assistant - User Guide
+------------------------------------
+
+🔍 Overview
+------------
+Meet Eira, your anime-style virtual assistant — designed to perform real-time tasks, search the web, talk naturally, and help you out like a true digital companion.
+
+Eira is a Python script-based assistant that leverages external APIs for its advanced capabilities.
+
+⚙️ System Requirements
+----------------------
+- **Operating System:** Windows, macOS, Linux (Python environment required)
+- **Internet Connection:** Required for most features (AI chat, Google Search, etc.)
+- **Microphone Access:** Required for voice commands
+- **Python 3.x:** Must be installed on your system.
+- **Environment Variables:**
+    - `OPENROUTER_API_KEY`: For AI chat features. (Critical: AI chat disabled if not set)
+    - `GOOGLE_API_KEY`: For Google Search. (Critical: Google Search disabled if not set)
+    - `SEARCH_ENGINE_ID`: For Google Search. (Critical: Google Search disabled if not set)
+
+🎮 How to Use
+-------------
+
+**Voice Mode:**
+1. Press **F2** once to activate listening mode.
+2. Speak your command clearly.
+3. Eira will process and respond.
+
+**Chat Mode:**
+Type your prompt in the chat window and press Enter.
+
+🧠 What Can Eira Do?
+------------------------
+- **Web Navigation:** Open specific websites (e.g., "open YouTube", "open Amazon").
+- **Web Search:** Search for information on Google (e.g., "search best AI tools on Google").
+- **Tab Management:** Close the current browser tab (e.g., "close tab").
+- **Conversational AI:** Engage in natural small conversations and answer general questions using an advanced AI model.
+- **Text-to-Speech:** Responds naturally using Edge TTS.
+
+🗣️ Sample Voice Commands
+-------------------------
+- "open YouTube"
+- "search best AI tools on Google"
+- "close tab"
+- "what is the weather like today?"
+- "tell me a joke"
+- "who is Elon Musk"
+- "how are you today"
+
+🧩 Features Breakdown
+----------------------
+| Feature                   | Eira (API Version) 🌐         
+|---------------------------|--------------------------|
+| Voice-based conversation  | Advanced, natural        |     
+| Available as EXE          | No (Python script only)  |
+| Internet Required         | Yes (API-based)          |
+| Edge TTS Voice            | Yes                      |
+| Google Search             | Yes                      |
+| Open Websites             | Yes                      |
+| Close Browser Tabs        | Yes                      |
+| Wake Word Support         | Coming soon              |
+
+⚠️ Important Notes
+-------------------
+- **F2 Key:** Press F2 once only. Do not hold or double-press.
+- **Text Input:** While typing, use lowercase letters and correct spelling for best results.
+- **API Keys:** Ensure your `OPENROUTER_API_KEY`, `GOOGLE_API_KEY`, and `SEARCH_ENGINE_ID` environment variables are correctly set for full functionality. Without them, AI chat and Google Search will be disabled.
+- **Hobby Project:** This is a hobby project; minor bugs may occur.
+- **Customization:** Developers are welcome to modify the Python source code.
+
+🎉 Final Note
+-------------
+Thanks for trying out Eira, your new anime-style digital buddy! Your support helps me grow.
